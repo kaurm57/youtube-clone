@@ -1,0 +1,127 @@
+body{
+    font-family: Roboto, Arial;
+    background-color: rgb(19, 19, 19);
+    margin-top: 90px;
+}
+p {
+    font-family: Roboto, Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.thumbnail {
+    width: 100%;
+    border-radius: 10px;
+}
+.videotitle {
+    color: white;
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+.views {
+    color: rgb(122, 120, 120);
+    font-size: 15px;
+}
+.channel {
+    color: rgb(122, 120, 120);
+    font-size: 15px;
+    font-weight: 400px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+.pfp {
+    width: 55px;
+    border-radius: 50px;
+    vertical-align: top;
+}
+.videos{
+    display: inline-block;
+    vertical-align: top;
+
+}
+.videopic{
+    margin-bottom: 12px;
+    position: relative;
+
+}
+.channel-profile {
+    display: inline-block;
+    width: 60px;
+    vertical-align: top;
+
+}
+.video-info{
+    display: inline-block;
+
+}
+.no-thumb{
+    display:grid; 
+    grid-template-columns: 80px 1fr;
+}
+
+.video-previews{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 16px;
+    padding-left: 100px;
+    padding-right: 30px;
+
+}
+
+@media (min-width: 1000px) {
+    .video-previews{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 999px) {
+    .video-previews {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 700px) {
+    .video-previews {
+        grid-template-columns: 1fr;
+    }
+}
+
+.time{
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    bottom: 5px;
+    right: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    letter-spacing:0.7px;
+}
+
+.header{
+    z-index: 100
+}
+
+.sidebar{
+    z-index: 120
+}
+
+.menuimg{
+    cursor: pointer
+}
+
+.logo{
+    cursor: pointer
+}
+
+a {
+    text-decoration: none;
+}
